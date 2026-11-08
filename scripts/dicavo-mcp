@@ -1,0 +1,5 @@
+#!/bin/sh
+# Starts the Dicavo installed from the Mac App Store as a read-only MCP
+# server over standard input and output. Codex needs the command inside
+# the plugin; it runs nothing else.
+exec /Applications/Dicavo.app/Contents/MacOS/Dicavo --mcp

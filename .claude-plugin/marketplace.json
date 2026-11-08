@@ -1,0 +1,15 @@
+{
+  "name": "dicavo",
+  "description": "The Dicavo plugin: your meetings recorded with Dicavo on this Mac, for Claude Code and Cowork.",
+  "owner": {
+    "name": "Martin Hostak",
+    "email": "support@dicavo.eu"
+  },
+  "plugins": [
+    {
+      "name": "dicavo",
+      "source": "./",
+      "description": "Ask about your meetings recorded with Dicavo on this Mac. Read-only."
+    }
+  ]
+}

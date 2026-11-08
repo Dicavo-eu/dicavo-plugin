@@ -1,0 +1,19 @@
+{
+  "name": "dicavo",
+  "displayName": "Dicavo",
+  "version": "1.0.0",
+  "description": "Ask about your meetings recorded with Dicavo on this Mac: AI summaries, transcripts, action items, people and recurring meetings. Read-only, and nothing leaves the Mac except what your AI client sends to its own provider.",
+  "author": {
+    "name": "Martin Hostak",
+    "email": "support@dicavo.eu",
+    "url": "https://dicavo.eu"
+  },
+  "homepage": "https://dicavo.eu/en/mcp.html",
+  "repository": "https://github.com/Dicavo-eu/dicavo-plugin",
+  "license": "Apache-2.0",
+  "keywords": ["meetings", "transcripts", "meeting notes", "action items", "macos"],
+  "icon": "./assets/logo.png",
+  "documentationUrl": "https://dicavo.eu/en/mcp.html",
+  "supportUrl": "https://dicavo.eu/en/support.html",
+  "privacyPolicyUrl": "https://dicavo.eu/en/privacy.html"
+}

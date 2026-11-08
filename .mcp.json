@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "dicavo": {
+      "command": "/Applications/Dicavo.app/Contents/MacOS/Dicavo",
+      "args": ["--mcp"]
+    }
+  }
+}

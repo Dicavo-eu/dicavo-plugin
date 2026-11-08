@@ -1,0 +1,34 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "dicavo",
+  "version": "1.0.0",
+  "description": "Ask about your meetings recorded with Dicavo on this Mac: AI summaries, transcripts, action items, people and recurring meetings. Read-only.",
+  "author": {
+    "name": "Martin Hostak",
+    "email": "support@dicavo.eu",
+    "url": "https://dicavo.eu"
+  },
+  "homepage": "https://dicavo.eu/en/mcp.html",
+  "repository": "https://github.com/Dicavo-eu/dicavo-plugin",
+  "license": "Apache-2.0",
+  "keywords": ["meetings", "transcripts", "meeting notes", "action items", "macos"],
+  "extensions": {
+    "com.openai": {
+      "requires_local_executor": true,
+      "interface": {
+        "displayName": "Dicavo",
+        "shortDescription": "Your recorded meetings, from Dicavo on this Mac",
+        "longDescription": "Ask about the meetings you recorded with Dicavo: AI summaries, transcripts, action items, people and recurring meetings. The plugin starts Dicavo, installed from the Mac App Store, as a local read-only server. Dicavo Pro and Access for AI agents in Dicavo's settings are required.",
+        "developerName": "Martin Hostak",
+        "category": "Productivity",
+        "capabilities": ["Read"],
+        "websiteURL": "https://dicavo.eu/en/mcp.html",
+        "privacyPolicyURL": "https://dicavo.eu/en/privacy.html",
+        "defaultPrompt": "What did we agree in my last meeting, and what is still open?",
+        "brandColor": "#22233F",
+        "logo": "./assets/logo.png",
+        "composerIcon": "./assets/logo.png"
+      }
+    }
+  }
+}
